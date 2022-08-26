@@ -1,0 +1,7 @@
+frase = str(input('Type your full name: '))
+leng = ''.join(frase.split())
+n1 = frase.split()
+print(frase.upper())
+print(frase.lower())
+print('# of letters: {}'.format(len(leng)))
+print('Length of first name: {}'.format(len(n1[0])))
