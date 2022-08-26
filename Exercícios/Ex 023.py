@@ -1,9 +1,9 @@
-num = input('Input a number from 0 to 9999: ')
-while len(num) > 4:
-    num = input('Input a number from 0 to 9999: ')
-
-print("""
-Unit: {}
+num = int(input('Input a number from 0 to 9999: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print("""Unit: {}
 Ten: {}
 Hundred: {}
-Thousand {}""".format(num[3], num[2], num[1], num[0]))
+Thousand {}""".format(u, d, c, m))

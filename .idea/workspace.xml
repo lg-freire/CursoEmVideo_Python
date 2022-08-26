@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="df91d593-7488-460e-9eb4-06205d7aaf75" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios/Ex 023.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Ex 023.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios/Ex 024.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Ex 024.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios/Ex 025.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Ex 025.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios/Ex 026.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Ex 026.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios/Ex 027.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Ex 027.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,7 @@
       <recent name="D:\Usuários\Laércio\Área de Trabalho\Git - Python\CursoEmVideo_Python\Exercícios" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ex 027">
+  <component name="RunManager" selected="Python.Ex 024">
     <configuration name="Ex 023" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CursoEmVideo_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex 024" />
+        <item itemvalue="Python.Ex 023" />
         <item itemvalue="Python.Ex 027" />
         <item itemvalue="Python.Ex 026" />
         <item itemvalue="Python.Ex 025" />
-        <item itemvalue="Python.Ex 024" />
-        <item itemvalue="Python.Ex 023" />
       </list>
     </recent_temporary>
   </component>

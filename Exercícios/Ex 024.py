@@ -1,4 +1,3 @@
-frase = str(input('City name: '))
-n1 = frase.split()
-name = n1[0]
-print('Santo' in name)
+frase = str(input('City name: ')).lower().strip().split()
+name = frase[0]
+print('santo' in name)

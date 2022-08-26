@@ -1,2 +1,2 @@
-frase = str(input('Full name: '))
-print('Silva' in frase)
+frase = str(input('Full name: ')).lower().strip()
+print('silva' in frase)
