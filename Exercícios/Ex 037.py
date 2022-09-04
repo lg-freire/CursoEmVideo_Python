@@ -16,6 +16,7 @@ def dec2any(dec,base_final):
     return numero_final
 
 
+# It's possible to remove the first two characters of a string by adding [2:] to it.
 n = int(input('Input a number: '))
 print('2 = binary; 8 = octo; 16 = hexadecimal')
 base = int(input('Input the base: '))

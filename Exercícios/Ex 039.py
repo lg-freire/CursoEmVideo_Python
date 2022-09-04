@@ -1,8 +1,7 @@
-import datetime
+from datetime import date
 birth = int(input('Birth year: '))
-date = datetime.date.today()
-year = int(date.strftime('%Y'))
-age = year - birth
+now = date.today().year
+age = now - birth
 if age < 18:
     print("You're safe.")
 elif age == 18:

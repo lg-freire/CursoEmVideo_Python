@@ -1,8 +1,7 @@
-import datetime
+from datetime import date
 birth = int(input('Year of birth: '))
-date = datetime.date.today()
-year = int(date.strftime('%Y'))
-age = year - birth
+now = date.today().year
+age = now - birth
 if age <= 9:
     print('MIRIM')
 elif 9 < age <= 14:
