@@ -1,7 +1,8 @@
 old = ''
 w = 0
 ages, mage, names = [], [], []
-for i in range(0, 1):
+for i in range(0, 4):
+    print(f'++++++++ Subject #{i+1} +++++++++')
     name = str(input(f'Name of subject #{i+1}: ')).strip()
     age = int(input(f'Age of subject #{i+1}: '))
     gend = str(input(f"""Subject #{i+1} is:
