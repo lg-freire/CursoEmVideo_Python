@@ -13,6 +13,7 @@ Your guess: '''))
     else:
         user = int(input('''\033[91mYou guessed wrong! Try higher next time!\033[m
 Your guess: '''))
+        print('-+' * 25)
     guess += 1
 if guess <= 3:
     print(f'You got it, and it only took you {guess} tries. Not bad for a human.')
