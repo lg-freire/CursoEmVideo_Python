@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd909ffc-2d0c-4e16-a09f-a50dda466dbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercícios/Ex 060.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Ex 060.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios/Ex 061.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Ex 061.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Ex 060">
+  <component name="RunManager" selected="Python.Ex 061">
     <configuration name="EX 059" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CursoEmVideo_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex 063" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex 061" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CursoEmVideo_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercícios/Ex 063.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercícios/Ex 061.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex 061" />
         <item itemvalue="Python.Ex 060" />
         <item itemvalue="Python.EX 059" />
         <item itemvalue="Python.Ex 058" />
         <item itemvalue="Python.Ex 065" />
-        <item itemvalue="Python.Ex 063" />
       </list>
     </recent_temporary>
   </component>
