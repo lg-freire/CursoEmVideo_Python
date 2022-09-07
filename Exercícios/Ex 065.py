@@ -19,5 +19,5 @@ while op != 'n':
             n = int(input('Then gimme another: '))
         elif op == 'n':
             print('Aight.', end=' ')
-print(f'The numbers you gave me average at \033[34m{over / tot:.0f}\033[m. The largest was \033[31m{lar}\033[m and'
+print(f'The {tot} numbers you gave me average at \033[34m{over / tot:.0f}\033[m. The largest was \033[31m{lar}\033[m and'
       f' the smallest was \033[33m{sm}\033[m.')
