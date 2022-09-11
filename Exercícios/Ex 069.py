@@ -13,7 +13,7 @@ while True:
             print("""\033[31mINVALID INPUT.\033[m
 Please input a number.""")
     gen = input('Subject gender [M/F]: ').strip().lower()
-    while gen != 'm' and gen != 'f':
+    while gen not in 'mf':
         gen = input("""\033[31mINVALID INPUT.\033[m
 Please input a valid gender: """).strip().lower()
     if age >= 18:
@@ -23,7 +23,7 @@ Please input a valid gender: """).strip().lower()
     if gen == 'f' and age <= 20:
         w += 1
     flag = input('Are there more subjects for registration [Y/N]? ').strip().lower()
-    while flag != 'y' and flag != 'n':
+    while flag not in 'yn':
         flag = input('Yes [Y] or No [N]: ').strip().lower()
     if flag == 'n':
         print('\033[33mPROGRAM TERMINATED.\033[m')

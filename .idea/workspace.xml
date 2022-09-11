@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd909ffc-2d0c-4e16-a09f-a50dda466dbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios/Ex 069.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercícios/Ex 069.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Ex 071">
+  <component name="RunManager" selected="Python.Ex 069">
     <configuration name="Ex 067" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CursoEmVideo_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,9 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex 069" />
         <item itemvalue="Python.Ex 071" />
         <item itemvalue="Python.Ex 070" />
-        <item itemvalue="Python.Ex 069" />
         <item itemvalue="Python.Ex 068" />
         <item itemvalue="Python.Ex 067" />
       </list>
