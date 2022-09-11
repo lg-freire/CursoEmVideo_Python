@@ -1,28 +1,27 @@
 print('=' * 60)
-print(f"{'Foundation for American Growth'}:^60")
+print(f"{'Foundation for American Growth':^60}")
 print('=' * 60)
 value = int(input('\033[34mHow much would you like to withdraw today?\033[m\nUS$'))
-n50 = n20 = n10 = n1 = 0
+bill = 50
+nbill = 0
+print('=' * 60)
+print("That'll be:")
 
 while True:
-    if value >= 50:
-        n50 = value // 50
-        value -= n50 * 50
-    if value >= 20:
-        n20 = value // 20
-        value -= n20 * 20
-    if value >= 10:
-        n10 = value // 10
-        value -= n10 * 10
-    n1 = value
-    value -= n1
-    if value == 0:
-        break
+    if value >= bill:
+        value -= bill
+        nbill += 1
+    else:
+        if nbill > 0:
+            print(f'{nbill} ${bill} bill(s)')
+        if bill == 50:
+            bill = 20
+        elif bill == 20:
+            bill = 10
+        elif bill == 10:
+            bill = 1
+        nbill = 0
+        if value == 0:
+            break
 
-print('=' * 60)
-print(f"""That'll be:
-{n50} $50 bills
-{n20} $20 bills
-{n10} $10 bills
-{n1} $1 bills
-\033[31mGoodbye.\033[m""")
+print("\033[31mGoodbye.\033[m")

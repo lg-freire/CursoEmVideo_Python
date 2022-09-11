@@ -26,7 +26,7 @@ Please insert a valid price.""")
     if cheapv == 0 or price < cheapv:
         cheapv = price
         cheapn = name
-    
+
 
 sleep(1.5)
 print('-' * 18)
