@@ -2,9 +2,9 @@ from time import sleep
 a = m = w = 0
 count = 1
 while True:
-    print('-' * 20)
+    print('-' * 24)
     print(f'SUBJECT REGISTRATION #{count}')
-    print('-' * 20)
+    print('-' * 24)
     while True:
         try:
             age = int(input('Subject age: '))
@@ -30,7 +30,7 @@ Please input a valid gender: """).strip().lower()
         break
     count += 1
 sleep(1.5)
-print('=' * 10)
+print('=' * 22)
 print(f"""\033[34mEXECUTION COMPLETE.\033[m
 Subjects of age: {a}
 Male subjects: {m}
