@@ -23,14 +23,10 @@ Please insert a valid price.""")
     total += price
     if price >= 1000:
         exp += 1
-    if cheapv == 0:
+    if cheapv == 0 or price < cheapv:
         cheapv = price
         cheapn = name
-    else:
-        if price < cheapv:
-            cheapv = price
-            cheapn = name
-
+    
 
 sleep(1.5)
 print('-' * 18)
