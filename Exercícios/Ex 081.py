@@ -3,8 +3,7 @@ nums = []
 count = 1
 
 while True:
-    n = int(input(f'Insert value #{count}: '))
-    nums.append(n)
+    nums.append(int(input(f'Insert value #{count}: ')))
     choice = input('Continue [Y/N]: ').strip()
     while choice not in 'yn':
         choice = input(f'''\033[31mINVALID INPUT\033[m
