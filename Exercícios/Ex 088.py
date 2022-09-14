@@ -15,12 +15,10 @@ while True:
 print(f"== GENERATING {times} GAMES ==")
 
 for i in range(1, times+1):
-    for j in range(0, 6):
+    while len(lott) != 6:
         num = randint(1, 60)
         if num not in lott:
             lott.append(num)
-        else:
-            j -= 1
     sleep(1)
     print(f'Game number \033[34m#{i}\033[m: {sorted(lott)}')
     lott.clear()
