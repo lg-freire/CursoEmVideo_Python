@@ -35,7 +35,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Ex 095">
+  <component name="RunManager" selected="Python.Ex 092">
     <configuration name="Ex 091" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CursoEmVideo_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,10 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex 092" />
         <item itemvalue="Python.Ex 095" />
         <item itemvalue="Python.Ex 094" />
         <item itemvalue="Python.Ex 093" />
-        <item itemvalue="Python.Ex 092" />
         <item itemvalue="Python.Ex 091" />
       </list>
     </recent_temporary>

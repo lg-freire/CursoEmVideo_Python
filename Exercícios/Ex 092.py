@@ -4,9 +4,9 @@ people = {'name': input('Name of subject: '), 'birth': int(input('Birth year: ')
 if people['work'] != 0:
     people['year'] = int(input('Hired in: '))
     people['wage'] = int(input('Salary: US$'))
-
 age = datetime.today().year - people['birth']
-ret = age + (35 - (datetime.today().year - people['year']))
+if people['work'] != 0:
+    ret = age + (35 - (datetime.today().year - people['year']))
 
 print(f"""Subject name: {people['name']}
 Subject age: {age}""")
