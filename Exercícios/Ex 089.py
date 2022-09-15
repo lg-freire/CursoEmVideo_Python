@@ -42,7 +42,7 @@ for c, i in enumerate(full):
     avg = (full[c][1][0] + full[c][1][1]) / 2
     print(f'{c+1}', end='   ')
     [print(i, end='') for i in full[c][0]]
-    print(f'{avg:>32.1f}')
+    print(f'{avg:>33.1f}')
 print('-' * 40)
 
 while True:
