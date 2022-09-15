@@ -8,7 +8,7 @@ while True:
     player['goals'] = goals[:]
     player['total'] = sum(goals)
     goals.clear()
-    team.append(player)
+    team.append(player.copy())
     count += 1
     flag = input('Continue [Y/N]: ').strip().lower()
     while flag not in 'yn':
@@ -16,7 +16,6 @@ while True:
 Continue [Y/N]: """).strip().lower()
     if flag == 'n':
         break
-
 
 print('-=' * 40)
 print(team)
