@@ -7,7 +7,8 @@ count = 1
 while True:
     person = {'name': input(f'Name of subject #{count}: '), 'sex': input(f'Gender of subject #{count} [M/F]: '),
               'age': int(input(f'Age of subject #{count}: '))}
-    people.append(person)
+    people.append(person.copy())
+    person.clear()
     total += person['age']
     count += 1
     flag = input('Continue [Y/N]: ').strip().lower()
