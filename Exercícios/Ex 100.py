@@ -12,6 +12,7 @@ def roll(li):
         sleep(.4)
     print('END')
     sleep(1.5)
+    return li
 
 
 def listAdd(li):
@@ -27,5 +28,4 @@ The sum its even numbers is:''', end=' ')
 
 title('SUM OF RANDOM NUMBERS', 35)
 numbers = []
-roll(numbers)
-listAdd(numbers)
+listAdd(roll(numbers))
