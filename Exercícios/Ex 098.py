@@ -4,11 +4,18 @@ from MyFunctions import title
 
 def count(x, y, z):
     print(f'Count from {x} to {y} in step {z}:')
-    if x > y:
+    if z == 0:
+        z = 1
+    if x > y and z >= 0:
         z = -z
-    for i in range(x, y+1, z):
-        print(f'{i}', end=' ')
-        sleep(0.4)
+    if y >= 0:
+        for i in range(x, y+1, z):
+            print(f'{i}', end=' ')
+            sleep(0.4)
+    else:
+        for i in range(x, y-1, z):
+            print(f'{i}', end=' ')
+            sleep(0.4)
     print('END')
     print('-' * 30)
     sleep(1)
