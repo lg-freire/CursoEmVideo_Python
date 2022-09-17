@@ -7,7 +7,7 @@ def scores(*n, sit=False):
     """
     avg = sum(n) / len(n)
     dc = {'total': len(n), 'highest': (max(n)), 'lowest': min(n), 'average': f'{avg:.1f}'}
-    if sit is True:
+    if sit:
         if avg < 5:
             dc['situation'] = 'BAD'
         elif 5 <= avg < 7:
