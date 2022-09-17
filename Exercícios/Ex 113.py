@@ -10,7 +10,11 @@ def validateInt():
                 break
             else:
                 print('''\033[1;31mINVALID INPUT\033[m
-Please input a valid number.''')
+                Please input a valid number.''')
+        except KeyboardInterrupt:
+            print('\033[31mUser chose not to input this value\033[m')
+            n = 0
+            break
     return n
 
 
@@ -27,6 +31,10 @@ def validateFloat():
             else:
                 print('''\033[1;31mINVALID INPUT\033[m
         Please input a valid number.''')
+        except KeyboardInterrupt:
+            print('\033[31mUser chose not to input this value\033[m')
+            n = 0
+            break
     return n
 
 
