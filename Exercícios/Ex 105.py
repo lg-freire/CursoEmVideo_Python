@@ -1,6 +1,3 @@
-from MyFunctions import title
-
-
 def scores(*n, sit=False):
     """
     → Function for analyzing scores and averages of a student.
