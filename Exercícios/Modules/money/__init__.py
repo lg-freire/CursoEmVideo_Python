@@ -17,3 +17,6 @@ def discount(n, d=0):
     s = n * (1 - (d / 100))
     return s
 
+
+def money(n):
+    return f'US${n:.2f}'
