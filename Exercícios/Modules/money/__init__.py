@@ -1,21 +1,33 @@
-def half(n):
+def half(n, flag=False):
     s = n / 2
-    return s
+    if flag:
+        return money(s)
+    else:
+        return s
 
 
-def double(n):
+def double(n, flag=False):
     s = n * 2
-    return s
+    if flag:
+        return money(s)
+    else:
+        return s
 
 
-def increase(n, i=0):
+def increase(n, i=0, flag=False):
     s = n * (1 + (i / 100))
-    return s
+    if flag:
+        return money(s)
+    else:
+        return s
 
 
-def discount(n, d=0):
+def discount(n, d=0, flag=False):
     s = n * (1 - (d / 100))
-    return s
+    if flag:
+        return money(s)
+    else:
+        return s
 
 
 def money(n):
