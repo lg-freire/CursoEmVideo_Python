@@ -37,10 +37,10 @@ def money(n):
     return f'US${n:.2f}'
 
 
-def table(n):
+def table(n, i=0, d=0):
     title('VALUE BREAKDOWN', 40)
     print(f"""{'Analyzed value:':30}{money(n):10}
 {'Double price:':30}{double(n, True):10}
 {'Half price:':30}{half(n, True):10}
-{'40 % increase:':30}{increase(n, 40, True):10}
-{'30% discount:':30}{discount(n, 30, True)}""")
+{f'{i}% increase:':30}{increase(n, i, True):10}
+{f'{d}% discount:':30}{discount(n, d, True):10}""")
